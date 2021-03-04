@@ -5,7 +5,7 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 . ${DIR}/config.sh
 
 # https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
-podman run -it --rm -p 8888:8888 -v "${WORKBOOK} " \
+podman run -it --rm -p 8888:8888 -v "${WORKBOOK}":/home/jovyan/work \
        jupyter/pyspark-notebook 
 
 echo "http://localhost:8888"
