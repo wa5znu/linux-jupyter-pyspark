@@ -1,7 +1,7 @@
 #/bin/bash
 
 # Run config.sh file to get settings
-DIR="$( cd "$( dirname "${BASH_SOURCE 0 » }" )" && pwd )"
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 . ${DIR}/config.sh
 
 # https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
