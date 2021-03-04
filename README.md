@@ -22,5 +22,7 @@
 - Visit the 127.0.0.1 link it prints out
 
 ## References
-- Installation: https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
+- Installation: https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html
+- PySpark test: https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
 - PySpark CSV: https://sparkbyexamples.com/pyspark/pyspark-read-csv-file-into-dataframe/
+- PySpark getting started: https://spark.apache.org/docs/3.1.1/api/python/getting_started/index.html
