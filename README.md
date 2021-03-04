@@ -9,9 +9,10 @@
 ## Requirements
 - Recent Linux server with four or more  cores.
 - Podman, aliased to docker
-- A directory to save state in
+- A directory to save state into
 
-## Procedure
+## Installation
 - mkdir $WORKBOOK
 - ed conf.sh # add $WORKBOOK
 - mkdir $WORKBOOK
+- sudo ./install-podman.sh
