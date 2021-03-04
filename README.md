@@ -23,6 +23,7 @@
 - Add these cells
 
 ```
+# Setup
 from pyspark.sql import SparkSession
 
 # local = this host only, *=use all cores
@@ -52,6 +53,6 @@ df.count
 ## References
 - Installation: https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html
 - PySpark test: https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
-  (The first cell is wrong).
+  (The first cell is wrong; use the above Setup instead.)
 - PySpark CSV: https://sparkbyexamples.com/pyspark/pyspark-read-csv-file-into-dataframe/
 - PySpark getting started: https://spark.apache.org/docs/3.1.1/api/python/getting_started/index.html
