@@ -4,6 +4,8 @@
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 . ${DIR}/config.sh
 
+echo DIR=$DIR
+exit 1
 # podman / docker workaround
 chmod -R 777 $WORKBOOK
 
