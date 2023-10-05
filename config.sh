@@ -1,1 +1,1 @@
-WORKBOOK=/home/klotz/wip/linux-jupyter-pyspark/work/
+WORKBOOK=/home/klotz/dotfiles/linux-jupyter-pyspark/work/
